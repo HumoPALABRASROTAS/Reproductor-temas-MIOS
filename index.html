@@ -255,6 +255,7 @@ main {
           <div class="swiper-slide"><img src="https://i.postimg.cc/xdyhLF2g/telas-mentales.png" /><h1>Telas Mentales</h1></div>
           <div class="swiper-slide"><img src="https://i.postimg.cc/cLh94S9d/tu-luz-de-la-ana.webp" /><h1>Luz de la Mañana</h1></div>
           <div class="swiper-slide"><img src="https://i.postimg.cc/90yvzrZv/Te-Echo-de-Menos.png" /><h1>Te echo de Menos</h1></div>
+           <div class="swiper-slide"><img src="https://i.postimg.cc/0y9tmXPF/CARATURA-MARITEECHO-DE-MENOS-POP.png" /><h1>Te echo de Menos (cover POP)</h1></div>
         </div>
       </div>
 
@@ -268,6 +269,7 @@ main {
         <div class="playlist-item"><img src="https://i.postimg.cc/xdyhLF2g/telas-mentales.png"><div class="song"><p>Telas Mentales</p><p>Voz:Rober Letra:humo</p></div><p>3:23</p><i class="fa-solid fa-heart like-btn"></i></div>
         <div class="playlist-item"><img src="https://i.postimg.cc/cLh94S9d/tu-luz-de-la-ana.webp"><div class="song"><p>Luz de la mañana</p><p>Humo</p></div><p>2:37</p><i class="fa-regular fa-heart like-btn"></i></div>
         <div class="playlist-item"><img src="https://i.postimg.cc/90yvzrZv/Te-Echo-de-Menos.png"><div class="song"><p>Te echo de Menos</p><p>Humo</p></div><p>2:37</p><i class="fa-regular fa-heart like-btn"></i></div>
+        <div class="playlist-item"><img src="https://i.postimg.cc/0y9tmXPF/CARATURA-MARITEECHO-DE-MENOS-POP.png"><div class="song"><p>Te echo de Menos-POP</p><p>Humo</p></div><p>2:37</p><i class="fa-regular fa-heart like-btn"></i></div>
       </div>
     </div>
     
@@ -309,7 +311,7 @@ const shuffleBtn = document.getElementById("shuffleBtn");
 let currentSongIndex = 0; // Índice de la canción que se está reproduciendo
 let isSongLoaded = false; // Bandera para saber si ya se ha cargado una canción
 
-// --- LISTA DE CANCIONES ---
+// --- LISTA DE CANCIONE AÑADIR ---
 // Este es el array más importante. Contiene las URLs directas a los archivos de audio (MP3).
 // Cada URL debe ser un enlace directo al archivo de música para que el reproductor pueda cargarlo.
 // El orden de las URLs aquí debe coincidir con el orden de las canciones en el HTML.
@@ -320,6 +322,7 @@ const songs = [
   "https://files.catbox.moe/kq45m9.mp3", // URL para la cuarta canción (telas)
   "https://files.catbox.moe/khv8cw.mp3", // URL para la quinta canción (luz mañana)
   "https://files.catbox.moe/no6pv9.mp3", // URL para la sexta canción (TE ECHO DE MENOS)
+  "https://files.catbox.moe/ucrpaq.mp3", // URL para la setimaa canción (TE ECHO DE MENOS-POP)
 ];
 
 // --- INICIALIZACIÓN DE SWIPER ---
@@ -414,6 +417,7 @@ likeBtns.forEach((likeBtn) => likeBtn.addEventListener("click", (e) => {
 </script>
 </body>
 </html>
+
 
 
 
